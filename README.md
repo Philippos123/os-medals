@@ -1,34 +1,5 @@
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-## Template Instructions
-
-Welcome,
-
-This is the Code Institute student template for the bring your own data project option in Predictive Analytics. We have preinstalled all of the tools you need to get started. It's perfectly okay to use this template as the basis for your project submissions. Click the `Use this template` button above to get started.
-
-You can safely delete the Template Instructions section of this README.md file and modify the remaining paragraphs for your own project. Please do read the Template Instructions at least once, though! It contains some important information about the IDE and the extensions we use.
-
-## How to use this repo
-
-1. Use this template to create your GitHub project repo
-
-1. Log into your cloud IDE with your GitHub account.
-
-1. On your Dashboard, click on the New Workspace button
-
-1. Paste in the URL you copied from GitHub earlier
-
-1. Click Create
-
-1. Wait for the workspace to open. This can take a few minutes.
-
-1. Open a new terminal and `pip3 install -r requirements.txt`
-
-1. Open the jupyter_notebooks directory, and click on the notebook you want to open.
-
-1. Click the kernel button and choose Python Environments.
-
-Note that the kernel says Python 3.8.18 as it inherits from the workspace, so it will be Python-3.8.18 as installed by our template. To confirm this, you can use `! python --version` in a notebook code cell.
 
 ## Cloud IDE Reminders
 
@@ -45,23 +16,23 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 
 
 ## Dataset Content
-* Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's maximum size and to have a shorter model training time. If you are doing an image recognition project, we suggest you consider using an image shape that is 100px × 100px or 50px × 50px, to ensure the model meets the performance requirement but is smaller than 100Mb for a smoother push to GitHub. A reasonably sized image set is ~5000 images, but you can choose ~10000 lines for numeric or textual data. 
+* I borrow a data set from a Youtuber named Dataquest. Inside this dataset there was data about every country that took a part and competet in the Olympics games. 
 
 
 ## Business Requirements
-* Describe your business requirements
+* This year sweden want's to win as much medals as possible and with the data I have collected I am going to analys what the best strateige to get as much medals as possible. 
 
 
 ## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision validating it (them) 
+* So to get some type of understanding how we should strategies when we send athletes to OS, we need to look at numbers. One of my hypothesis is that people that are younger wins more medals, but the countrys that send most athletes win the most.  
 
 
 ## The rationale to map the business requirements to the Data Visualizations and ML tasks
-* List your business requirements and a rationale to map them to the Data Visualizations and ML tasks
+* The first thing i need to do is to get the data to my workspace eather through kaggle or local from my computer. Then i need to clean the data and through away all columns with NAN. Then I can start to compare the amount of medals compared to for exampel what year the OS was held or where it was. For exampel if we see an increase of medals for france this year, what could that mean? 
 
 
 ## ML Business Case
-* In the previous bullet, you potentially visualized an ML task to answer a business requirement. You should frame the business case using the method we covered in the course 
+* The goal with the ML is for Sweden to decide who they should send to OS, I am going to study further with this concept becuase I am intrested if ethnicity matter. For exampel if a half norwigen and half swedish have higher chanse of winning a medal in norway. 
 
 
 ## Dashboard Design
