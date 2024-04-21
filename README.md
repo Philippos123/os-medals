@@ -36,13 +36,13 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 
 
 ## Dashboard Design
-* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
-* Later, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but subsequently you used another plot type).
+* For the user there is right now two input fields, one for country and one for year. With the help of that a user can search for USA or Afghanistan 2030 and the ml will predict the amount of medals they will get. 
 
 
 
 ## Unfixed Bugs
-* You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+* I have a pretty difficult bug wich is no matter the country i input, if it is before 2016 I will only get this message "The predicted number of medals for Zimbabwe in 2016 is 142.4127678192977" 
+* * And I have 0 clue where the machine get's those numbers from. 
 
 ## Deployment
 ### Heroku
@@ -60,13 +60,12 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 
 
 ## Main Data Analysis and Machine Learning Libraries
-* Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
+* I downloaded a set from Kaggle. 
 
 
 ## Credits 
 
-* In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
+* I want to give a shoutout to the youtube channle Dataquest for the csv file and data set and tutorial how to create an LinnearRegression ML  
 
 ### Content 
 
@@ -82,5 +81,5 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 
 
 ## Acknowledgements (optional)
-* Thank the people that provided support through this project.
+* I want to give a shoutout to the youtube channle Dataquest for the csv file and data set
 
